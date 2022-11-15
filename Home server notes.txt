@@ -1,0 +1,9 @@
+As of 11/15/22
+Currently running 
+  Plex (not in Docker)
+  Pihole (in Docker)
+
+I'm not currently running anything else on home server.
+Might run HomeAssistant some day.
+
+ 

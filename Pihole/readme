@@ -1,0 +1,12 @@
+11/15/22
+
+Installing pihole in docker:
+install docker compose 
+  Remember the whole uninstall existing Docker and then add the Docker repo and install docker engine fresh.
+    https://docs.docker.com/engine/install/centos/#set-up-the-repository
+  Create docker-compose.yml:
+  Note the password.
+
+I needed to find and kill services running on 80 and 53 in order to start.
+  netstat -tulpn (still don't know how to do this wil ss)
+  sudo killall dnsmasq
